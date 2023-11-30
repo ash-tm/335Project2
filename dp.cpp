@@ -44,25 +44,20 @@ int maxStocks(int N, vector<vector<int>>& stocks_and_values, int amount) {
 }
 
 int main() {
-    ifstream infile("dpInput.txt"); // Assuming input file is named input.txt
-
-    // Read N (number of stocks)
+    ifstream infile("dpInput.txt"); 
     int N;
     infile >> N;
 
-    // Read stock information
     vector<vector<int>> stocks_and_values(N, vector<int>(2));
     for (int i = 0; i < N; ++i) {
         infile >> stocks_and_values[i][0] >> stocks_and_values[i][1];
     }
 
-    // Read investment amount
     int amount;
     infile >> amount;
 
     infile.close();
 
-    // Calculate and print the result
     int result = maxStocks(N, stocks_and_values, amount);
     cout << "Maximum number of stocks that can be purchased: " << result << endl;
 
