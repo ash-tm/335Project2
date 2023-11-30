@@ -1,11 +1,11 @@
 # 335Project2
 
 ## Group Members
-Adam Sharif Hasim - ashasim@csu.fulleron.edu
-Abraham Medina - 
-Ethan Wu - 
+Adam Sharif Hasim - ashasim@csu.fulleron.edu  
+Abraham Medina -  
+Ethan Wu -  
 
---
+---
 
 ## Running the Exhaustive Part
 1. Download and extract .zip contents into any directory.
