@@ -44,7 +44,7 @@ int maxStocks(int N, vector<vector<int>>& stocks_and_values, int amount) {
 }
 
 int main() {
-    ifstream infile("input.txt"); // Assuming input file is named input.txt
+    ifstream infile("dpInput.txt"); // Assuming input file is named input.txt
 
     // Read N (number of stocks)
     int N;
