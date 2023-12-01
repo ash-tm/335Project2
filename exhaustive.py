@@ -12,7 +12,7 @@ def exhaustive(items, stocks_and_values, amount):
 
     # Generate all possible combinations given stocks_and_values
     for i in range(1, items + 1):
-        combined = itertools.combinations(stocks_and_values, i) # O(nCr)
+        combined = itertools.combinations(stocks_and_values, i) # O(2^N)
 
         # Checks each combination and gets the sum for stocks and values
         for candidate in combined: # o(n log n)
@@ -61,6 +61,6 @@ def main():
         stocks_and_values = []
         amount = 0
 
-if __name__== "__main__":
+if __name__ == "__main__":
     """Runs the main function"""
     main()
