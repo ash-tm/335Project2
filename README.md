@@ -3,7 +3,7 @@
 ## Group Members
 Adam Sharif Hasim - ashasim@csu.fulleron.edu  
 Abraham Medina -  abrahammda@csu.fullerton.edu   
-Ethan Wu -  
+Ethan Wu - ewu@csu.fullerton.edu  
 
 ---
 
